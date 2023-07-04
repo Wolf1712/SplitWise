@@ -1,0 +1,34 @@
+.card {
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    margin-bottom: 16px;
+  }
+  
+  .word-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .word-list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .word-list-item > .bullet {
+    background-color: #ff6b6b;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    margin-right: 8px;
+  }
+  
+  .word-list-item > .word {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
